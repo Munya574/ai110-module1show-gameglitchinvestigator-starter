@@ -25,14 +25,10 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+The purpose of the game is to create a number guessing game where the player tries to guess a secret number within a certain range using hints and a limited number of attempts. While testing the game, I found several bugs including incorrect hints, attempts starting at the wrong value, wrong scoring behavior, difficulty ranges that were inconsistent, and the New Game button not properly resetting the game state. The secret number was also changing due to Streamlit reruns and there was a type mismatch between strings and integers during comparisons. To fix these issues, I corrected the hint logic, adjusted the difficulty ranges, fixed the scoring and attempt counter, removed the unnecessary string conversion, and used Streamlit session state to store the secret number and reset values properly when starting a new game.
 
 ## 📸 Demo
 <img width="1916" height="921" alt="image" src="https://github.com/user-attachments/assets/63cf41d4-5f30-4811-9d75-66343fe5a2f7" />
-
-- [ ] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 
