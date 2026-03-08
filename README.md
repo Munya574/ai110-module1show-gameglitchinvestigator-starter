@@ -30,6 +30,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Explain what fixes you applied.
 
 ## 📸 Demo
+<img width="1916" height="921" alt="image" src="https://github.com/user-attachments/assets/63cf41d4-5f30-4811-9d75-66343fe5a2f7" />
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
